@@ -18,6 +18,7 @@ function reportToHtml(reportText: string): string {
     .replace(/([a-zA-Z])\n([a-zA-Z])/g, "$1$2");
 
   let html = cleanText
+    .replace(/https?:\/\/goreinvent\.com\/mission-map\/[^\s<]*/g, "")
     .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
     .replace(/\n\n/g, "</p><p>")
     .replace(/\n/g, "<br>");
@@ -46,7 +47,7 @@ function reportToHtml(reportText: string): string {
 
   html = html.replace(
     /Mission Map/g,
-    `<a href="${MISSION_MAP_URL}" style="color:#1a0dab;font-weight:600;">Mission Map</a>`
+    `<a href="${MISSION_MAP_URL}" style="color:#cf2e2e;font-weight:600;">Mission Map</a>`
   );
 
   return html;
@@ -146,7 +147,7 @@ function buildPdfHtml(reportHtml: string, logoSvg: string): string {
 
   strong { font-weight: 600; }
 
-  a { color: #1a0dab; text-decoration: underline; }
+  a { color: #cf2e2e; text-decoration: underline; }
 
   .footer {
     margin-top: 40px;
