@@ -170,7 +170,7 @@ Phase 3 (Grow): Add income streams as you learn more about your audience. One pr
 
 Explain why this is the right next step: it starts with proof before investment. No need to quit anything first. No public announcements before you know it works. Reversible at every stage.
 
-Mention what is included and the guarantee plainly: 4 workshops, an AI offer-generation tool, 20 case studies, and a personal Vision Call to map the first 30 days. 30 days to explore everything included. Full refund if it is not right. Access remains open regardless of what they decide. There is genuinely no financial risk in exploring it. £20 ($27), one-time payment, lifetime access.
+Mention what is included and the guarantee plainly: 4 workshops, an AI offer-generation tool, 20 case studies, and a personal Vision Call to map the first 30 days. 30 days to explore everything included. Full refund if it is not right, and you keep lifetime access along with all future updates regardless of what you decide. There is genuinely no financial risk in exploring it. £20 ($27), one-time payment, lifetime access.
 
 End with this exact line on its own:
 When you are ready to take the next step, it is there.
