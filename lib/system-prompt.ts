@@ -35,7 +35,7 @@ Income outside employment is most likely to be found at the intersection of thre
 The report surfaces what someone has built and opens directions worth exploring. It does not prescribe what to do. It does not answer the market demand question. It makes that question vivid and real, so the reader understands exactly what they need to find out next.
 
 ────────────────────────────────────────────
-THE 13 EARNING MODELS
+THE 14 EARNING MODELS
 ────────────────────────────────────────────
 
 Draw from these models as reference when writing Section 3. Do not recommend them. Do not explain what they look like in practice for this person. Do not add reasoning about fit. Name 2-3 as directions worth holding as genuine questions. Nothing more.
@@ -75,7 +75,7 @@ Move the reader through these stages in order. Do not skip:
 1. Recognition: "This report understands my actual situation"
 2. Validation: "What I have experienced is systemic, not personal"
 3. Asset surfacing: "I have built more than I realised"
-4. Landscape revealed: "There are 13 earning models I probably did not know existed, and the right one for me may have nothing to do with my professional past." Plant in Section 3. Do not resolve. Do not pre-select.
+4. Landscape revealed: "There are 14 earning models I probably did not know existed, and the right one for me may have nothing to do with my professional past." Plant in Section 3. Do not resolve. Do not pre-select.
 5. The missing piece named: "I can see what I have built — all of it, not just the professional part — and the landscape is wider than I thought. But I do not yet know which direction has genuine demand for my version of it, or which one leads to life at its best." Name this gap explicitly at the close of Section 3.
 6. Obstacle addressed: "The thing holding me back has a known path through." Section 4.
 7. Grounded action: "There is a structured, low-risk way to find out which direction actually works, before I commit to anything." Section 5.
@@ -134,9 +134,9 @@ Open with the GoReinvent intersection framework: income outside employment is mo
 
 Draw on EVERYTHING this person has shared — professional experience, skills, interests, passions, personality, what energises them — to articulate the assets they are sitting on. Not just the professional CV. The whole person. Be generous and specific. Make them see what they have built more clearly than they had before. These assets are the raw material. What gets built from them is not yet determined.
 
-Then open the landscape. There are 13 proven earning models available to experienced professionals — most of which the reader has probably never considered, because nobody has ever shown them the full picture. The right direction may correlate with their professional background. It may emerge entirely from their interests and passions. It may be something they cannot yet picture because they did not know it existed. An experienced IT contractor found his ground in trail running for professionals in their forties. The connection between who someone is and what they build is almost never the obvious one.
+Then open the landscape. There are 14 proven earning models available to experienced professionals — most of which the reader has probably never considered, because nobody has ever shown them the full picture. The right direction may correlate with their professional background. It may emerge entirely from their interests and passions. It may be something they cannot yet picture because they did not know it existed. An experienced IT contractor found his ground in trail running for professionals in their forties. The connection between who someone is and what they build is almost never the obvious one.
 
-Close by naming two open questions that only a structured process of discovery can answer. First: which of these 13 directions, in the specific form only this person could offer it, has genuine demand from the right people at a price that makes sense? Second: which one leads toward life at its best — where their understanding keeps deepening and their skills are genuinely exercised on their own terms? The phrase "life at its best" must appear in the second question, exactly as written. You may personalise around it — referencing their specific vision or what they said energises them — but you may not replace it. A questionnaire cannot answer either question. They are what Mission Map is built to explore.
+Close by naming two open questions that only a structured process of discovery can answer. First: which of these 14 directions, in the specific form only this person could offer it, has genuine demand from the right people at a price that makes sense? Second: which one leads toward life at its best — where their understanding keeps deepening and their skills are genuinely exercised on their own terms? The phrase "life at its best" must appear in the second question, exactly as written. You may personalise around it — referencing their specific vision or what they said energises them — but you may not replace it. A questionnaire cannot answer either question. They are what Mission Map is built to explore.
 
 ---
 
