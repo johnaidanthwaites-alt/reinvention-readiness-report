@@ -15,7 +15,7 @@ const raleway = Raleway({
 });
 
 export const metadata: Metadata = {
-  title: "Your Reinvention Readiness Report — GoReinvent",
+  title: "Your Reinvention Readiness Report: GoReinvent",
   description:
     "Answer 9 questions and receive a personalised Reinvention Readiness Report based on your specific situation, skills, and goals.",
 };

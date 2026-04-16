@@ -96,7 +96,7 @@ function Confirmation({ name }: { name: string }) {
           Your Reinvention Readiness Report will arrive in your inbox within 10 minutes, {name}.
         </p>
         <p className="text-sm text-[#555] mb-8">
-          Check your spam folder if you don&apos;t see it — and add{" "}
+          Check your spam folder if you don&apos;t see it, and add{" "}
           <span className="font-semibold text-black">hello@goreinvent.com</span>{" "}
           to your contacts to make sure future messages get through.
         </p>
@@ -107,7 +107,7 @@ function Confirmation({ name }: { name: string }) {
             target="_blank" rel="noopener noreferrer"
             className="text-sm font-medium text-blue-600 hover:underline"
           >
-            GoReinvent — Helping experienced professionals build income outside employment
+            GoReinvent: Helping experienced professionals build income outside employment
           </a>
         </div>
       </div>
@@ -129,8 +129,8 @@ const SITUATION_OPTIONS = [
   "Employed but worried about job security or redundancy",
   "Actively job hunting but struggling to get hired",
   "Recently made redundant",
-  "Self-employed or contractor — income is declining",
-  "Business owner — growth has stalled or the model isn't working",
+  "Self-employed or contractor: income is declining",
+  "Business owner: growth has stalled or the model isn't working",
   "Approaching retirement but concerned about income",
 ];
 
@@ -140,7 +140,7 @@ const CONCERN_OPTIONS = [
   "Building income I control",
   "Funding retirement",
   "Getting out of burnout",
-  "I'm not sure — I just know something needs to change",
+  "I'm not sure. I just know something needs to change",
 ];
 
 const RUNWAY_OPTIONS = [
@@ -155,7 +155,7 @@ const WORKSTYLE_OPTIONS = [
   "Teaching or training groups",
   "Writing or creating content, sharing expertise",
   "Delivering projects with defined outcomes",
-  "I'm open — whatever fits my skills and situation",
+  "I'm open: whatever fits my skills and situation",
 ];
 
 const INITIAL_FORM = {
@@ -237,7 +237,7 @@ export default function Home() {
           Your Reinvention Readiness Report
         </h1>
         <p className="text-base text-gray-300 max-w-xl mx-auto">
-          Answer 9 questions and receive a personalised report on your options — based on your situation, your skills, and where you want to go.
+          Answer 9 questions and receive a personalised report on your options, based on your situation, your skills, and where you want to go.
         </p>
       </div>
 
@@ -245,7 +245,7 @@ export default function Home() {
         <form onSubmit={handleSubmit} noValidate className="space-y-8">
 
           {/* SECTION A */}
-          <SectionHeading>Section A — Your Situation</SectionHeading>
+          <SectionHeading>Section A: Your Situation</SectionHeading>
 
           <div>
             <FieldLabel htmlFor="f-situation">1. Where are you right now?</FieldLabel>
@@ -270,11 +270,11 @@ export default function Home() {
           </div>
 
           {/* SECTION B */}
-          <SectionHeading>Section B — Your Background</SectionHeading>
+          <SectionHeading>Section B: Your Background</SectionHeading>
 
           <div>
             <FieldLabel htmlFor="f-background">3. Your career background</FieldLabel>
-            <HelperText>Briefly describe your career background — what have you done, what industry or sector? A sentence or two is enough.</HelperText>
+            <HelperText>Briefly describe your career background: what have you done, what industry or sector? A sentence or two is enough.</HelperText>
             <TextArea
               id="f-background"
               placeholder="e.g. 20 years in financial services, latterly as a regional operations director..."
@@ -298,7 +298,7 @@ export default function Home() {
 
           <div>
             <FieldLabel htmlFor="f-interests">5. What genuinely interests or energises you?</FieldLabel>
-            <HelperText>What subjects, activities, or types of people do you find yourself drawn to — at work or outside it? What gives you energy rather than drains it?</HelperText>
+            <HelperText>What subjects, activities, or types of people do you find yourself drawn to, at work or outside it? What gives you energy rather than drains it?</HelperText>
             <TextArea
               id="f-interests"
               placeholder="e.g. Mentoring younger professionals, anything to do with sustainable business, endurance sport, writing..."
@@ -309,7 +309,7 @@ export default function Home() {
           </div>
 
           {/* SECTION C */}
-          <SectionHeading>Section C — Your Position</SectionHeading>
+          <SectionHeading>Section C: Your Position</SectionHeading>
 
           <div>
             <FieldLabel htmlFor="f-runway">6. If your income stopped tomorrow, roughly how long could you manage financially without major changes?</FieldLabel>
@@ -324,7 +324,7 @@ export default function Home() {
 
           <div>
             <FieldLabel htmlFor="f-blocker">7. What has stopped you making a move so far?</FieldLabel>
-            <HelperText>Be honest — this is for your report only.</HelperText>
+            <HelperText>Be honest. This is for your report only.</HelperText>
             <TextArea
               id="f-blocker"
               placeholder="e.g. I don't know what I'd offer or who'd pay for it. I worry I'm too old to start something new..."
@@ -335,7 +335,7 @@ export default function Home() {
           </div>
 
           {/* SECTION D */}
-          <SectionHeading>Section D — Your Vision</SectionHeading>
+          <SectionHeading>Section D: Your Vision</SectionHeading>
 
           <div>
             <FieldLabel htmlFor="f-vision">8. If things went well over the next 2 years, what would your work and income look like?</FieldLabel>
@@ -361,7 +361,7 @@ export default function Home() {
           </div>
 
           {/* SECTION E */}
-          <SectionHeading>Section E — Your Report</SectionHeading>
+          <SectionHeading>Section E: Your Report</SectionHeading>
 
           <p className="text-sm text-[#555]">
             Almost there. Where should we send your Reinvention Readiness Report? We will email you a personalised copy within 10 minutes.
@@ -410,7 +410,7 @@ export default function Home() {
               {submitting ? "Sending your answers..." : "Send My Reinvention Readiness Report"}
             </button>
             <p className="text-xs text-[#555] text-center mt-3">
-              Your report will arrive by email within 10 minutes. We will also add you to the GoReinvent mailing list — you can unsubscribe at any time.
+              Your report will arrive by email within 10 minutes. We will also add you to the GoReinvent mailing list. You can unsubscribe at any time.
             </p>
           </div>
 

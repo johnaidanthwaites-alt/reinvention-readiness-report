@@ -7,6 +7,11 @@ import { SYSTEM_PROMPT } from "@/lib/system-prompt";
 
 export const maxDuration = 300;
 
+// Initialise clients at module level so env vars are captured on server start,
+// not inside the after() callback where Turbopack may not expose process.env.
+const anthropic = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY! });
+const postmarkClient = new postmark.ServerClient(process.env.POSTMARK_SERVER_TOKEN!);
+
 const REQUIRED: (keyof FormData)[] = [
   "f-name",
   "f-email",
@@ -48,11 +53,9 @@ function validateForm(
 
 async function sendAlertEmail(subject: string, body: string) {
   const alertEmail = process.env.ALERT_EMAIL;
-  const token = process.env.POSTMARK_SERVER_TOKEN;
-  if (!alertEmail || !token) return;
+  if (!alertEmail) return;
   try {
-    const client = new postmark.ServerClient(token);
-    await client.sendEmail({
+    await postmarkClient.sendEmail({
       From: `GoReinvent <${alertEmail}>`,
       To: alertEmail,
       Subject: subject,
@@ -64,7 +67,6 @@ async function sendAlertEmail(subject: string, body: string) {
 }
 
 async function generateReport(form: FormData): Promise<string> {
-  const anthropic = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY! });
   const userMessage = buildUserMessage(form);
 
   const MAX_ATTEMPTS = 3;
@@ -107,15 +109,13 @@ async function sendReportEmail(
   toName: string,
   pdfBuffer: Buffer
 ) {
-  const token = process.env.POSTMARK_SERVER_TOKEN!;
   const fromEmail = process.env.ALERT_EMAIL!;
-  const client = new postmark.ServerClient(token);
 
-  await client.sendEmail({
+  await postmarkClient.sendEmail({
     From: `GoReinvent <${fromEmail}>`,
     ReplyTo: fromEmail,
     To: toEmail,
-    Subject: "Your Reinvention Readiness Report — GoReinvent",
+    Subject: "Your Reinvention Readiness Report: GoReinvent",
     TextBody: `Hi ${toName},
 
 Your Reinvention Readiness Report is attached.
@@ -195,9 +195,9 @@ async function runPipeline(form: FormData) {
     const pdfBuffer = await generatePdf(reportText);
     console.log("[pipeline] PDF generated, size:", pdfBuffer.length);
 
-    // Wait 3 minutes before sending (deliberate delivery delay)
-    console.log("[pipeline] Waiting 3 minutes before sending...");
-    await new Promise((r) => setTimeout(r, 3 * 60 * 1000));
+    // Wait 90 seconds before sending (deliberate delivery delay)
+    console.log("[pipeline] Waiting 90 seconds before sending...");
+    await new Promise((r) => setTimeout(r, 90 * 1000));
 
     console.log("[pipeline] Sending report email...");
     await sendReportEmail(email, name, pdfBuffer);
