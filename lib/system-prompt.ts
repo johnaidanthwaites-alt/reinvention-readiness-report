@@ -40,31 +40,33 @@ THE 14 EARNING MODELS
 
 Draw from these models as reference when writing Section 3. Do not recommend them. Do not explain what they look like in practice for this person. Do not add reasoning about fit. Name 2-3 as directions worth holding as genuine questions. Nothing more.
 
-1.  Advisory: solving problems using deep expertise; for analytical thinkers with specialist knowledge others will pay to access
+1.  Advisory / Consulting: selling judgement, not labour; for analytical thinkers with deep domain expertise and pattern recognition others will pay to access
 
-2.  Fractional Executive: part-time senior leadership (Fractional CFO, CMO, COO, HR Director etc.); for former directors and heads of function who want to apply leadership skills across multiple organisations without full-time commitment
+2.  Fractional Executive: part-time senior leadership (Fractional CFO, CMO, COO, CTO, HR Director etc.) across multiple organisations; for former directors and heads of function who want strategic variety without full-time commitment
 
-3.  Coaching: one-to-one development work; for people-oriented professionals who find energy in helping others think through challenges and grow
+3.  Coaching / Mentoring: helping others navigate decisions you have already lived through; for people-oriented professionals who find energy in facilitating others' thinking and growth
 
-4.  Done-For-You: delivering finished work for clients using specialist skills; for experts who enjoy the craft of doing rather than directing
+4.  Done-For-You Services: delivering finished work for clients using specialist skills; for experts who enjoy the craft of doing rather than directing, and derive satisfaction from tangible results
 
-5.  Training: teaching skills, designing and delivering courses or workshops; for those who enjoy educating and have knowledge others need
+5.  Repeatable Service Delivery: a specific skill delivered on a recurring monthly basis to clients who rely on it consistently; for those who value predictable retainer income over variable project work
 
-6.  Facilitation: designing and leading group processes, workshops, strategy sessions; for experienced organisers who can hold a room and move a group forward
+6.  Teaching / Training: turning experience into structured understanding through courses, workshops, or live training; for those who enjoy explaining and have knowledge others need
 
-7.  Productised Service: a fixed-scope, repeatable, packaged service with a defined deliverable and price; for systematic thinkers who want predictability and scale
+7.  Speaking / Events: paid knowledge delivery from a platform or live setting, including workshops, seminars, conference sessions, and panel appearances; for those comfortable being seen and heard, whose knowledge is best conveyed live
 
-8.  Membership: building a community or programme with recurring subscription income that compounds as membership grows; for those who want to create ongoing value for an audience and build income that builds over time
+8.  Facilitation: designing and leading group processes, strategy sessions, and workshops; for experienced professionals who can hold a room, synthesise thinking, and move a group forward
 
-9.  Affiliate: recommending relevant products or services to an audience and earning commission; for well-connected people with an established network or niche following
+9.  Productised Service: a fixed-scope, repeatable, packaged service with a defined deliverable and price; for systematic thinkers who want predictability and the ability to scale without endless customisation
 
-10. Content Creator: sharing expertise through writing, video, podcasting or other media to build an audience that generates multiple income streams; for natural communicators with a point of view
+10. Affiliate / Partnership: commercialising trust and curation by recommending products or services to an audience and earning commission; for well-connected people whose recommendations carry weight because of demonstrated expertise
 
-11. Licensing: licensing a proprietary methodology, framework, process or system to others (businesses, practitioners, or individuals); for those who have developed a genuinely distinctive approach over their career
+11. Joint Ventures / Co-creation: building something alongside a partner and sharing in the upside, where both parties contribute complementary strengths, audiences, or resources neither could replicate alone
 
-12. Speaking: paid keynote speaking, conference talks, panel appearances, MC work; for those with sector authority, a clear point of view, and comfort in front of an audience
+12. Membership / Community / Content: building an audience or community first and earning from it over time through subscriptions, sponsorship, or affiliated products; for long-term thinkers comfortable with delayed but compounding returns
 
-13. Hybrid Model: deliberately combining two or three of the above; for multi-skilled professionals who want variety and see natural connections between different ways of delivering value
+13. Licensing / Intellectual Property: licensing a proprietary methodology, framework, process, or system to others; for those who have developed a genuinely distinctive approach over their career and prefer ownership and leverage over personal delivery
+
+14. Hybrid / Portfolio: deliberately combining two or three complementary models for stability and resilience; for multi-skilled professionals who understand that diversification reduces risk and see natural connections between different ways of delivering value
 
 ────────────────────────────────────────────
 AWARENESS PROGRESSION
