@@ -120,13 +120,17 @@ async function sendReportEmail(
 
 Your Reinvention Readiness Report is attached.
 
-It is based entirely on what you told us, so read it when you have a few minutes to give it your full attention.
+It was written specifically for you, based on what you shared. Read it when you have 20 minutes without distraction.
 
-The GoReinvent Team`,
+When you get to Section 3, pay particular attention to the two questions it closes with. They are the ones that matter most for what comes next.
+
+John Thwaites
+GoReinvent`,
     HtmlBody: `<p style="font-family:sans-serif;font-size:15px;line-height:1.6;color:#000;">Hi ${toName},</p>
 <p style="font-family:sans-serif;font-size:15px;line-height:1.6;color:#000;">Your Reinvention Readiness Report is attached.</p>
-<p style="font-family:sans-serif;font-size:15px;line-height:1.6;color:#000;">It is based entirely on what you told us, so read it when you have a few minutes to give it your full attention.</p>
-<p style="font-family:sans-serif;font-size:15px;line-height:1.6;color:#000;">The GoReinvent Team</p>`,
+<p style="font-family:sans-serif;font-size:15px;line-height:1.6;color:#000;">It was written specifically for you, based on what you shared. Read it when you have 20 minutes without distraction.</p>
+<p style="font-family:sans-serif;font-size:15px;line-height:1.6;color:#000;">When you get to Section 3, pay particular attention to the two questions it closes with. They are the ones that matter most for what comes next.</p>
+<p style="font-family:sans-serif;font-size:15px;line-height:1.6;color:#000;">John Thwaites<br>GoReinvent</p>`,
     Attachments: [
       {
         Name: "reinvention-readiness-report.pdf",
