@@ -5,7 +5,7 @@ import { useState, FormEvent } from "react";
 
 function SectionHeading({ children }: { children: React.ReactNode }) {
   return (
-    <h2 className="font-[family-name:var(--font-bitter)] text-xl font-bold text-black mt-10 mb-1 pb-2 border-b border-black">
+    <h2 className="font-[family-name:var(--font-fraunces)] text-xl font-bold text-[#0D0106] mt-10 mb-1 pb-2 border-b border-[#0D0106]/15">
       {children}
     </h2>
   );
@@ -13,18 +13,18 @@ function SectionHeading({ children }: { children: React.ReactNode }) {
 
 function FieldLabel({ htmlFor, children }: { htmlFor: string; children: React.ReactNode }) {
   return (
-    <label htmlFor={htmlFor} className="block text-sm font-semibold text-black mb-1">
+    <label htmlFor={htmlFor} className="block text-sm font-semibold text-[#0D0106] mb-1">
       {children}
     </label>
   );
 }
 
 function HelperText({ children }: { children: React.ReactNode }) {
-  return <p className="text-xs text-[#555] mb-2">{children}</p>;
+  return <p className="text-xs text-[#0D0106]/60 mb-2">{children}</p>;
 }
 
 function ErrorMsg({ children }: { children: React.ReactNode }) {
-  return <p className="text-xs text-[#cf2e2e] mt-1">{children}</p>;
+  return <p className="text-xs text-[#FF331F] mt-1">{children}</p>;
 }
 
 function RadioGroup({ name, options, value, onChange, error }: {
@@ -36,10 +36,10 @@ function RadioGroup({ name, options, value, onChange, error }: {
       {options.map((opt) => {
         const selected = value === opt;
         return (
-          <label key={opt} className={`flex items-start gap-3 p-3 rounded border cursor-pointer transition-colors ${selected ? "bg-black border-black text-white" : "bg-white border-[#d1d5db] text-black hover:border-black"}`}>
+          <label key={opt} className={`flex items-start gap-3 p-3 border cursor-pointer transition-colors ${selected ? "bg-[#3626A7] border-[#3626A7] text-[#FBFBFF]" : "bg-[#FBFBFF] border-[#0D0106]/15 text-[#0D0106] hover:border-[#3626A7]"}`}>
             <input type="radio" name={name} value={opt} checked={selected} onChange={() => onChange(opt)} className="sr-only" />
-            <span className={`mt-0.5 flex-shrink-0 w-4 h-4 rounded-full border-2 flex items-center justify-center ${selected ? "border-white" : "border-[#555]"}`}>
-              {selected && <span className="w-2 h-2 rounded-full bg-white block" />}
+            <span className={`mt-0.5 flex-shrink-0 w-4 h-4 border-2 flex items-center justify-center ${selected ? "border-[#FBFBFF]" : "border-[#0D0106]/30"}`}>
+              {selected && <span className="w-2 h-2 bg-[#FBFBFF] block" />}
             </span>
             <span className="text-sm leading-snug">{opt}</span>
           </label>
@@ -58,7 +58,7 @@ function TextInput({ id, type = "text", placeholder, value, onChange, error }: {
     <>
       <input id={id} type={type} placeholder={placeholder} value={value}
         onChange={(e) => onChange(e.target.value)}
-        className={`w-full border rounded px-3 py-2 text-sm text-black bg-white focus:outline-none focus:ring-2 focus:ring-black ${error ? "border-[#cf2e2e]" : "border-[#d1d5db]"}`}
+        className={`w-full border px-3 py-2 text-sm text-[#0D0106] bg-[#FBFBFF] focus:outline-none focus:border-[#3626A7] transition-colors ${error ? "border-[#FF331F]" : "border-[#0D0106]/20"}`}
       />
       {error && <ErrorMsg>{error}</ErrorMsg>}
     </>
@@ -73,47 +73,13 @@ function TextArea({ id, placeholder, value, onChange, error }: {
     <>
       <textarea id={id} placeholder={placeholder} value={value} rows={3}
         onChange={(e) => onChange(e.target.value)}
-        className={`w-full border rounded px-3 py-2 text-sm text-black bg-white focus:outline-none focus:ring-2 focus:ring-black resize-y ${error ? "border-[#cf2e2e]" : "border-[#d1d5db]"}`}
+        className={`w-full border px-3 py-2 text-sm text-[#0D0106] bg-[#FBFBFF] focus:outline-none focus:border-[#3626A7] transition-colors resize-y ${error ? "border-[#FF331F]" : "border-[#0D0106]/20"}`}
       />
       {error && <ErrorMsg>{error}</ErrorMsg>}
     </>
   );
 }
 
-function Confirmation({ name }: { name: string }) {
-  return (
-    <div className="flex-1 flex items-center justify-center px-4 py-16">
-      <div className="max-w-lg w-full text-center">
-        <div className="w-14 h-14 rounded-full bg-black flex items-center justify-center mx-auto mb-6">
-          <svg className="w-7 h-7 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
-            <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
-          </svg>
-        </div>
-        <h1 className="font-[family-name:var(--font-bitter)] text-2xl font-bold text-black mb-4">
-          Your answers are being analysed now.
-        </h1>
-        <p className="text-base text-[#555] mb-4">
-          Your Reinvention Readiness Report will arrive in your inbox within 10 minutes, {name}.
-        </p>
-        <p className="text-sm text-[#555] mb-8">
-          Check your spam folder if you don&apos;t see it, and add{" "}
-          <span className="font-semibold text-black">hello@goreinvent.com</span>{" "}
-          to your contacts to make sure future messages get through.
-        </p>
-        <div className="border-t border-[#d1d5db] pt-6">
-          <p className="text-sm text-[#555] mb-2">While you wait:</p>
-          <a
-            href="https://goreinvent.com/?utm_source=start&utm_medium=confirmation&utm_campaign=reinvention-readiness"
-            target="_blank" rel="noopener noreferrer"
-            className="text-sm font-medium text-blue-600 hover:underline"
-          >
-            GoReinvent: Helping experienced professionals build income outside employment
-          </a>
-        </div>
-      </div>
-    </div>
-  );
-}
 
 const AGE_OPTIONS = [
   "Under 40",
@@ -179,7 +145,6 @@ export default function Home() {
   const [form, setForm] = useState(INITIAL_FORM);
   const [errors, setErrors] = useState<Partial<Record<FieldKey, string>>>({});
   const [submitting, setSubmitting] = useState(false);
-  const [submitted, setSubmitted] = useState(false);
 
   function setField(key: FieldKey, value: string) {
     setForm((f) => ({ ...f, [key]: value }));
@@ -220,23 +185,21 @@ export default function Home() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(form),
       });
-    } catch { /* show confirmation regardless */ }
-    setSubmitted(true);
+    } catch { /* redirect regardless */ }
+    window.location.href = `/thank-you?name=${encodeURIComponent(form["f-name"])}`;
   }
 
-  if (submitted) return <Confirmation name={form["f-name"]} />;
-
   return (
-    <div className="min-h-screen flex flex-col bg-white">
-      <header className="border-b border-[#d1d5db] px-4 py-4 flex justify-center">
+    <div className="min-h-screen flex flex-col bg-[#FBFBFF]">
+      <header className="border-b border-[#0D0106]/10 px-4 py-4 flex justify-center">
         <Image src="/goreinvent-logo.svg" alt="GoReinvent" width={160} height={67} priority />
       </header>
 
-      <div className="bg-black text-white px-4 py-10 text-center">
-        <h1 className="font-[family-name:var(--font-bitter)] text-2xl sm:text-3xl font-bold mb-3">
+      <div className="bg-[#0D0106] text-[#FBFBFF] px-4 py-10 text-center">
+        <h1 className="font-[family-name:var(--font-fraunces)] text-2xl sm:text-3xl font-bold mb-3">
           Your Reinvention Readiness Report
         </h1>
-        <p className="text-base text-gray-300 max-w-xl mx-auto">
+        <p className="text-base text-[#FBFBFF]/75 max-w-xl mx-auto">
           Answer 9 questions and receive a personalised report on your options, based on your situation, your skills, and where you want to go.
         </p>
       </div>
@@ -350,7 +313,7 @@ export default function Home() {
           </div>
 
           <div>
-            <FieldLabel htmlFor="f-workstyle">9. Which of these feels closest to how you would prefer to work? <span className="font-normal text-[#555]">(optional)</span></FieldLabel>
+            <FieldLabel htmlFor="f-workstyle">9. Which of these feels closest to how you would prefer to work? <span className="font-normal text-[#0D0106]/50">(optional)</span></FieldLabel>
             <RadioGroup
               name="f-workstyle"
               options={WORKSTYLE_OPTIONS}
@@ -363,7 +326,7 @@ export default function Home() {
           {/* SECTION E */}
           <SectionHeading>Section E: Your Report</SectionHeading>
 
-          <p className="text-sm text-[#555]">
+          <p className="text-sm text-[#0D0106]/60">
             Almost there. Where should we send your Reinvention Readiness Report? We will email you a personalised copy within 10 minutes.
           </p>
 
@@ -405,11 +368,11 @@ export default function Home() {
             <button
               type="submit"
               disabled={submitting}
-              className="w-full bg-black text-white font-semibold py-3 px-6 rounded hover:bg-[#222] disabled:opacity-50 disabled:cursor-not-allowed transition-colors text-base"
+              className="w-full bg-[#3626A7] text-[#FBFBFF] font-semibold py-3 px-6 hover:bg-[#3626A7]/85 disabled:opacity-50 disabled:cursor-not-allowed transition-colors text-base"
             >
               {submitting ? "Sending your answers..." : "Send My Reinvention Readiness Report"}
             </button>
-            <p className="text-xs text-[#555] text-center mt-3">
+            <p className="text-xs text-[#0D0106]/50 text-center mt-3">
               Your report will arrive by email within 10 minutes. We will also add you to the GoReinvent mailing list. You can unsubscribe at any time.
             </p>
           </div>
@@ -417,8 +380,8 @@ export default function Home() {
         </form>
       </main>
 
-      <footer className="border-t border-[#d1d5db] px-4 py-6 text-center">
-        <p className="text-xs text-[#555]">
+      <footer className="border-t border-[#0D0106]/10 px-4 py-6 text-center">
+        <p className="text-xs text-[#0D0106]/50">
           &copy; {new Date().getFullYear()} GoReinvent &middot; goreinvent.com &middot; This assessment is for educational purposes only and does not constitute regulated careers or financial advice.
         </p>
       </footer>

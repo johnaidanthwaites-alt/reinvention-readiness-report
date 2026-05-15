@@ -1,21 +1,21 @@
 import type { Metadata } from "next";
-import { Bitter, Raleway } from "next/font/google";
+import { Fraunces, Inter } from "next/font/google";
 import "./globals.css";
 
-const bitter = Bitter({
-  variable: "--font-bitter",
+const fraunces = Fraunces({
+  variable: "--font-fraunces",
   subsets: ["latin"],
-  weight: ["400", "600", "700"],
+  weight: ["400", "600", "700", "900"],
 });
 
-const raleway = Raleway({
-  variable: "--font-raleway",
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
   weight: ["400", "500", "600"],
 });
 
 export const metadata: Metadata = {
-  title: "Your Reinvention Readiness Report: GoReinvent",
+  title: "Your Reinvention Readiness Report — GoReinvent",
   description:
     "Answer 9 questions and receive a personalised Reinvention Readiness Report based on your specific situation, skills, and goals.",
 };
@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${bitter.variable} ${raleway.variable} h-full antialiased`}
+      className={`${fraunces.variable} ${inter.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
