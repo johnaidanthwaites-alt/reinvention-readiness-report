@@ -1,8 +1,8 @@
 import fs from "fs";
 import path from "path";
 
-const MISSION_MAP_URL =
-  "https://goreinvent.com/mission-map/?utm_source=email&utm_medium=report&utm_campaign=reinvention-readiness&utm_content=report-section5-cta";
+const PROFILE_URL =
+  "https://profile.goreinvent.com/?utm_source=email&utm_medium=report&utm_campaign=reinvention-readiness&utm_content=report-section5-cta";
 
 function normaliseSvg(svgRaw: string): string {
   return svgRaw
@@ -18,7 +18,6 @@ function reportToHtml(reportText: string): string {
     .replace(/([a-zA-Z])\n([a-zA-Z])/g, "$1$2");
 
   let html = cleanText
-    .replace(/https?:\/\/goreinvent\.com\/mission-map\/[^\s<]*/g, "")
     .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
     .replace(/\n\n/g, "</p><p>")
     .replace(/\n/g, "<br>");
@@ -45,9 +44,10 @@ function reportToHtml(reportText: string): string {
     );
   }
 
+  // Convert bare Profile URL to a clickable link that won't break across lines
   html = html.replace(
-    /Mission Map/g,
-    `<a href="${MISSION_MAP_URL}" style="color:#1a0dab;font-weight:600;">Mission Map</a>`
+    /https:\/\/profile\.goreinvent\.com\/\?[^\s<"']*/g,
+    `<a href="${PROFILE_URL}" style="color:#1a0dab;font-weight:600;word-break:break-all;">Begin your Reinvention Profile →</a>`
   );
 
   return html;
@@ -147,7 +147,7 @@ function buildPdfHtml(reportHtml: string, logoSvg: string): string {
 
   strong { font-weight: 600; }
 
-  a { color: #1a0dab; text-decoration: underline; }
+  a { color: #1a0dab; text-decoration: underline; word-break: break-all; }
 
   .footer {
     margin-top: 40px;
