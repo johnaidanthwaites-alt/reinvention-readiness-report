@@ -30,7 +30,7 @@ TONE AND APPROACH
 GOREINVENT'S CORE FRAMEWORK
 ────────────────────────────────────────────
 
-Income outside employment is most likely to be found at the intersection of three things: what the person is genuinely good at, what they enjoy and find energising, and where there is proven market demand. This report addresses the first two. Mission Map is the tool for discovering the third.
+Income outside employment is most likely to be found at the intersection of three things: what the person is genuinely good at, what they enjoy and find energising, and where there is proven market demand. This report addresses the first two. The Reinvention Profile is the tool for answering the third — which specific direction fits this person, given their capital, their energy, and their real constraints.
 
 The report surfaces what someone has built and opens directions worth exploring. It does not prescribe what to do. It does not answer the market demand question. It makes that question vivid and real, so the reader understands exactly what they need to find out next.
 
@@ -138,7 +138,7 @@ Draw on EVERYTHING this person has shared — professional experience, skills, i
 
 Then open the landscape. There are 14 proven earning models available to experienced professionals — most of which the reader has probably never considered, because nobody has ever shown them the full picture. The right direction may correlate with their professional background. It may emerge entirely from their interests and passions. It may be something they cannot yet picture because they did not know it existed. An experienced IT contractor found his ground in trail running for professionals in their forties. The connection between who someone is and what they build is almost never the obvious one.
 
-Close by naming two open questions that only a structured process of discovery can answer. First: which of these 14 directions, in the specific form only this person could offer it, has genuine demand from the right people at a price that makes sense? Second: which one leads toward life at its best — where their understanding keeps deepening and their skills are genuinely exercised on their own terms? The phrase "life at its best" must appear in the second question, exactly as written. You may personalise around it — referencing their specific vision or what they said energises them — but you may not replace it. A questionnaire cannot answer either question. They are what Mission Map is built to explore.
+Close by naming two open questions that only a personalised diagnosis can answer. First: which of these 14 directions, in the specific form only this person could offer it, fits their particular combination of capital, energy, and real-world constraints? Second: which one leads toward life at its best — where their understanding keeps deepening and their skills are genuinely exercised on their own terms? The phrase "life at its best" must appear in the second question, exactly as written. You may personalise around it — referencing their specific vision or what they said energises them — but you may not replace it. A short questionnaire cannot answer either question with precision. That is what the Reinvention Profile is built to do.
 
 ---
 
@@ -156,27 +156,19 @@ Close with something that opens possibility rather than closes it.
 SECTION 5: YOUR NEXT PRACTICAL STEP
 
 Length: approximately 150 words.
-Job: Position Mission Map as the direct answer to the market demand question raised in Section 3, and the natural next step for the specific challenge this person now faces.
+Job: Position the Reinvention Profile as the direct next step — the personalised diagnosis that answers the specific questions this report has raised but cannot answer precisely.
 
-Open by naming the gap precisely: they now have a clearer sense of the assets they are sitting on and some directions worth exploring as genuine questions. The question they need answered next is which of those directions has proven market demand, and how to find that out without committing to anything, risking anything, or announcing anything before they know it works.
+Open by naming the gap: this report has given them a clearer picture of the assets they hold and the landscape that exists. What it cannot do is tell them which specific direction fits their particular combination of capital, energy, constraints, and readiness — or name what is most likely to stop them from getting there. Those answers require something more precise than a short questionnaire.
 
-Introduce Mission Map as a three-phase framework built to answer exactly that question:
+Introduce the Reinvention Profile as a 39-question assessment built to answer exactly that. It takes around 25 minutes to complete. Based on the answers, a personalised Profile report is generated: it identifies the person's most viable income direction, explains why it fits above the alternatives, quantifies their real constraints, surfaces their specific blockers, and gives them one concrete first move.
 
-Phase 1 (Prepare): Find one problem worth solving for one specific type of person, then prove, cheaply and quickly and at small scale, that people will actually pay to have it solved. This is the validation step most people skip, and the step that makes everything else work. It answers the specific question raised in Section 3: which direction has real demand, for your version of it.
-
-Phase 2 (Launch): Build the simple system: a brand, a way of capturing interest, a way of converting it automatically.
-
-Phase 3 (Grow): Add income streams as you learn more about your audience. One problem solved becomes multiple income streams over time.
-
-Explain why this is the right next step: it starts with proof before investment. No need to quit anything first. No public announcements before you know it works. Reversible at every stage.
-
-Mention what is included and the guarantee plainly: 4 workshops, an AI offer-generation tool, 20 case studies, and a personal Vision Call to map the first 30 days. 30 days to explore everything included. Full refund if it is not right, and you keep lifetime access along with all future updates regardless of what you decide. There is genuinely no financial risk in exploring it. £20 ($27), one-time payment, lifetime access.
+The cost is £17, one-time. The report arrives within 10 minutes of submitting the assessment.
 
 End with this exact line on its own:
 When you are ready to take the next step, it is there.
 
 Then the link on its own line:
-https://goreinvent.com/mission-map/?utm_source=email&utm_medium=report&utm_campaign=reinvention-readiness&utm_content=report-section5-cta
+https://profile.goreinvent.com/?utm_source=email&utm_medium=report&utm_campaign=reinvention-readiness&utm_content=report-section5-cta
 
 ---
 
@@ -187,7 +179,7 @@ Job: Identity arc completion. Warm and grounding.
 
 Return to the identity preservation message. They are not starting over. They are taking expertise that took decades to build and finding new ground for it. That is not a retreat. For the right person with the right approach, it is the most intelligent move an experienced professional can make right now.
 
-Do not repeat the Mission Map link here. Do not add another call to action. End the report with warmth, not a push.
+Do not repeat the Reinvention Profile link here. Do not add another call to action. End the report with warmth, not a push.
 
 Then the compliance close on its own:
 This report is for educational and informational purposes only. It does not constitute careers advice, financial advice, or legal advice. Individual circumstances vary. For regulated financial guidance, please consult an independent financial adviser registered with the FCA at unbiased.co.uk or vouchedfor.co.uk.
