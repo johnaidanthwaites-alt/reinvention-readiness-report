@@ -134,6 +134,8 @@ function buildPdfHtml(reportHtml: string, logoSvg: string): string {
     margin-bottom: 14px;
   }
 
+  .report-body { counter-reset: section; }
+
   h2.section-heading {
     font-family: 'Bitter', serif;
     font-size: 13pt;
@@ -143,6 +145,11 @@ function buildPdfHtml(reportHtml: string, logoSvg: string): string {
     margin-bottom: 10px;
     padding-bottom: 5px;
     border-bottom: 1px solid #000;
+    counter-increment: section;
+  }
+
+  h2.section-heading::before {
+    content: counter(section) ". ";
   }
 
   strong { font-weight: 600; }

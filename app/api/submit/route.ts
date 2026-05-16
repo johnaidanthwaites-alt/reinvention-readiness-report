@@ -122,14 +122,14 @@ Your Reinvention Readiness Report is attached.
 
 It was written specifically for you, based on what you shared. Read it when you have 20 minutes without distraction.
 
-When you get to Section 3, pay particular attention to the two questions it closes with. They are the ones that matter most for what comes next.
+When you get to the section called "Where Your Strengths Could Take You", pay particular attention to the two questions it closes with. They are the ones that matter most for what comes next.
 
 John Thwaites
 GoReinvent`,
     HtmlBody: `<p style="font-family:sans-serif;font-size:15px;line-height:1.6;color:#000;">Hi ${toName},</p>
 <p style="font-family:sans-serif;font-size:15px;line-height:1.6;color:#000;">Your Reinvention Readiness Report is attached.</p>
 <p style="font-family:sans-serif;font-size:15px;line-height:1.6;color:#000;">It was written specifically for you, based on what you shared. Read it when you have 20 minutes without distraction.</p>
-<p style="font-family:sans-serif;font-size:15px;line-height:1.6;color:#000;">When you get to Section 3, pay particular attention to the two questions it closes with. They are the ones that matter most for what comes next.</p>
+<p style="font-family:sans-serif;font-size:15px;line-height:1.6;color:#000;">When you get to the section called "Where Your Strengths Could Take You", pay particular attention to the two questions it closes with. They are the ones that matter most for what comes next.</p>
 <p style="font-family:sans-serif;font-size:15px;line-height:1.6;color:#000;">John Thwaites<br>GoReinvent</p>`,
     Attachments: [
       {
